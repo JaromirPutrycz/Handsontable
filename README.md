@@ -41,3 +41,8 @@ In Terminal to run the test script use command line:
 12) to see the report with run of the tests use command line:
     npx playwright show-report #to show report
 
+13) For playwright/typescript Test script1:  Test_Handsontable.spec.test.ts  
+In Terminal to run the test script use command line: npx playwright test Test_Handsontable.spec.test.ts   
+
+14) For playwright/typescript Test script1:  Test_Handsontable.spec.test.ts  
+In Terminal to run the test script with browsers use command line: npx playwright test Test_Handsontable.spec.test.ts --headed 

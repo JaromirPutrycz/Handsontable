@@ -29,3 +29,14 @@ PS C:\Users\jarom\TS> node src/zad11Selenium.spec.js
 6) Script should run correctly (without any error)
 7) Webpage https://handsontable.com/demo is loaded
 8) Cookies are accepted via button "Allow all"
+
+
+For playwright/typescript Test script1:  TestScript1_handsontable.spec.test.ts
+In Terminal to run the test script use command line: 
+npx playwright test TestScript1_handsontable.spec.test.ts
+or command line2: 
+npx playwright test TestScript1_handsontable.spec.test.ts --headed
+or or command line3: npx playwright test #to run tests
+to see the report with run of the tests use command line:
+npx playwright show-report #to show report
+

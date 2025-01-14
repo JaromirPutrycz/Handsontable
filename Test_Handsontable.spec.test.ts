@@ -28,7 +28,6 @@ test.describe('Handsontable Demo Page', () => {
         for (const value of countryValues) {
             expect(value).toBe(COUNTRY);
         }
-
         const dateCells = page.locator(`.ht_master tbody td[aria-colindex="${DATE_COL_INDEX}"]`);
         const dateValues = await dateCells.allTextContents();
         const sortedDates = [...dateValues].sort((a, b) => {
